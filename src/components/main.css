@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	background-color: white;
+	height: 200%; 
+}
+
+.mini-header {
+	background-color: #272f6181;
+}
+
+.social-media {
+	color: floralwhite;
+	font-size: 14px;
+	font-weight: 400;
+	padding:10px 20px;
+	height: 40px;
+	max-height: max-content;
+}
+
+.social-icons {
+	margin: 16px;
+	position: relative;
+	top: -48px;
+	left: 245px;
+
+}
+
+.container-fluid {
+	background-color: #4857AE;
+	overflow: hidden;
+
+}
+
+.heading-wrapper{
+padding-top: 15px;
+}
+
+
+
+.h1 {
+	color: white;
+	font-size: 3rem;
+	font-style: ranchers;
+	font-weight: 780;
+	margin-left: 10%;
+}
+
+
+.wrapper{
+	min-height: 100px;
+}
+
+.news-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px;
+
+}
+
+.newsletter {
+	background-color: #ffdb4d;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 12px;
+	width: max-content;
+}
+
+.header-icon {
+	margin-right: 10px;
+}
+
+.move {
+	color: #5D6060;
+	font-weight: 450;
+}
+
+.nav-nav {
+	width: 100vw;
+	margin-left: -20px;
+	padding-left: 148px;
+	background-color:white;
+	
+}
+
+.jumbotron {
+	background-color: #F0F6F6;
+	padding: 68px;
+	border-top: solid;
+	border-color: #D8DCDD;
+	position: relative;
+}
+
+
+
+.news-images-images {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news-title {
+	text-decoration-line: underline;
+	margin-top: -1000px;
+	margin-left: 980px;
+}
+
+
+
+.news-images {
+	width: 100%;
+	max-height: 180px;
+}
+
+.news-details {
+	width: 40%;
+}
+
+.title {
+	text-align: left;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.article-title {
+	font-size: 14px;
+	text-align: left;
+	margin-left: 20px;
+	line-height: 23px;
+}
+
+
+.card-wrapper{
+	margin: auto; 
+}
+
+
+.description {
+	text-align: left;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button {
+	background-color: none;
+}
+
+
+
+
+
+
+.area-wrapper{
+	display: flex;
+}
+
+@media screen and (max-width:760px){
+	.nav-nav{
+		padding-left: 0px;
+	}
+	.h1{
+		font-size:  2rem;
+	}
+}
+
+@media screen and (max-width:1000px){
+	.area-wrapper{
+		display: block;
+	}
+	.area1{
+		width: 100% !important;
+		margin:auto ;
+	}
+	.area2{
+		display: flex;
+	    flex-wrap: wrap;
+		width: 100% !important;
+	
+	
+	}
+}
