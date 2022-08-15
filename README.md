@@ -17,3 +17,5 @@ The Project was built using React and Redux. Also used the News API to get the a
 • In your terminal, type npm install (installs the required dependencies).
 
 •	In your terminal, type npm start (opens React app--https:// local host:3000--on default browser).
+
+[![2022-08-15-2.png](https://i.postimg.cc/xC4QQ1qC/2022-08-15-2.png)](https://postimg.cc/8JM9BDRQ)
